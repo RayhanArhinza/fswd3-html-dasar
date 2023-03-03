@@ -15,7 +15,7 @@ section .container h2{
 }
 section .container .card{
     border-radius: 30px;
-    height: 600px;
+    height: 550px;
     margin-top: 10px;
 }
 section .container .card h3{
