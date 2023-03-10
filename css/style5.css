@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    background-color: #3498db;
+}
+
+.box1{
+    flex-basis: calc(50% - 5px);
+    height: 100px;
+    background-color: #8c00ff;
+}
+.box2 {
+    flex-basis: calc(50% - 5px);
+    height: 50px;
+    align-self: flex-start;
+    background-color: #ee9883;
+}
+
+.box3 {
+    flex-basis: calc(50% - 5px);
+    height: 100px;
+    margin-left: -27px;
+    background-color: #bbff00;
+}
+
+.box4 {
+    flex-basis: calc(25% - 7px);
+    height: 95px;
+    margin-right: 37px;
+    margin-top: -110px;
+    background-color: #481896;
+}
+
+.box5 {
+    flex-basis: calc(25% - 8px);
+    height: 50px;
+    margin-left: 130px;
+    margin-top: -70px;
+    background-color: #b3872a;
+}
+.box6 {
+    flex-basis: calc(25% - 7px);
+    height: 50px;
+    margin-top: -275px;
+    background-color: #e5ff00;
+
+}
+
+.box7 {
+    flex-basis: calc(25% - 7px);
+    height: 95px;
+    margin-left: 195px;
+    margin-top: -137px;
+    background-color: #ff00aa;
+}
+
+.box8 {
+    flex-basis: calc(75% - 3px);
+    height: 50px;
+    margin-top: -21px;
+    background-color: #15ff00;
+}
+
+.box9 {
+    flex-basis: calc(25% - 8px);
+    height: 50px;
+    margin-top: -21px;
+    background-color: #ff3300;
+}
+
+.box10 {
+    flex-basis: 100%;
+    height: 50px;
+    background-color: #9933ff;
+}
