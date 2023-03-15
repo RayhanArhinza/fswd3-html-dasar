@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jankenpon</title>
+</head>
+
+<body onload="playGame()">
+    <h1>Jankenpon</h1>
+</body>
+<script type="text/javascript">
+    function playGame() {
+        var weapons = ["rock", "paper", "scissors"];
+        var name = prompt("Enter Your Name!")
+        var user = prompt("Choose your weapon: rock, paper, or scissors");
+        var computer = weapons[Math.floor(Math.random() * weapons.length)];
+        var result = "";
+        if (user == null) {
+            return; // user canceled
+        }
+
+        user = user.toLowerCase();
+
+        if (!weapons.includes(user)) {
+            alert("Invalid !");
+            playGame();
+            return;
+        }
+
+        if (user == computer) {
+            result = name + " Tie!";
+        } else if (user == "rock") {
+            if (computer == "scissors") {
+                result = name + " You win!";
+            } else {
+                result = name + " You lose!";
+            }
+        } else if (user == "paper") {
+            if (computer == "rock") {
+                result = name + " You win!";
+            } else {
+                result = name + " You lose!";
+            }
+        } else if (user == "scissors") {
+            if (computer == "paper") {
+                result = name + " You win!";
+            } else {
+                result = name + " You lose!";
+            }
+        }
+
+        alert("Computer chose " + computer + ". " + result);
+
+        var playAgain = confirm(name + " do you want to play again?");
+        if (playAgain) {
+            playGame();
+        }
+    }
+</script>
+
+</html>
