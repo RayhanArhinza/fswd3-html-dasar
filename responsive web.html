@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="css/style9.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body style="background-color: rgb(231, 231, 231);">
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <h3>Rayhan Saneval Arhinza</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="profile">
+                <h1>Rayhan Saneval Arhinza</h1>
+                <h5> Gamer | Photography | IT Enthusiast</h5>
+                <p>Hello, I am an Informatics student at Universitas Pembangunan Nasional "Veteran" Jawa Timur
+                </p>
+            </div>
+        </div>
+    </section>
+    <article>
+        <h1>Gallery</h1>
+        <div class="container">
+            <div class="card">
+                <img src="assets/lawang.jpg" alt="">
+                <h4>Lawang Sewu</h4>
+                <p>Lawang Sewu adalah gedung bersejarah milik PT Kereta Api Indonesia (Persero) yang awalnya digunakan
+                    sebagai Kantor Pusat perusahaan kereta api swasta Nederlandsch-Indische Spoorweg Maatschappij
+                    (NISM).</p>
+                <div class="selengkapnya">
+                    <a href="" style="color: black;">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/monumen.jpg" alt="">
+                <h4>Monumen Soekarno Hatta</h4>
+                <p>Patung Presiden dan Wakil Presiden Indonesia yang pertama yang sedang membaca naskah proklamasi ini
+                    berada di dalam kompleks Tugu Pahlawan Surabaya, tepat di seberang kantor Gubernur Jawa Timur</p>
+                <div class="selengkapnya">
+                    <a href="" style="color: black;">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/bk.jpg" alt="">
+                <h4>Balai Kota Surabaya</h4>
+                <p>Balai Kota Surabaya didirikan pada tahun 1915-1925. Arsiteknya adalah GC.Citroen dan pelaksanaannya
+                    oleh H.V Hollandsche Beton Mij dengan menghabiskan dana sekitar 1000 gulden pada saat itu (sekitar 8
+                    juta) untuk seluruh biayanya.</p>
+                <div class="selengkapnya">
+                    <a href="" style="color: black;">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h2>Artikel Terkait</h2>
+                <p style="padding-bottom: 1em;">Artikel Photography</p>
+                <p style="font-size: small;font-weight:bold">Kota Lama Semarang</p>
+                <p style="font-size: small;font-weight:bold">Tugu Pahlawan</p>
+                <p style="font-size: small;font-weight:bold">Monumen Jalesveva Jayamahe</p>
+                <p style="font-size: small;font-weight:bold">Monumen Bambu Runcing</p>
+                <p style="font-size: small;font-weight:bold">Taman Bungkul</p>
+            </div>
+        </div>
+
+    </article>
+
+</body>
+<script>
+    hamburger = document.querySelector(".hamburger");
+    nav = document.querySelector("nav");
+    hamburger.onclick = function () {
+        nav.classList.toggle("active");
+    }
+</script>
+
+</html>
