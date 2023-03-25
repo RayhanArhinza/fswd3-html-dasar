@@ -66,8 +66,9 @@ header .header-right .hamburger div {
 }
 
 section {
-    background-color: #42d0e9;
-    height: 400px;
+    background-color: rgba(137, 141, 138, 0.386);
+
+    width: 100%;
 }
 
 section .container {
@@ -189,7 +190,7 @@ article .container .sidebar {
         left: 0;
         width: 100%;
         height: fit-content;
-        background-color: #0b2239;
+        background-color: #168aff;
         padding: 0px;
         transition: 0.3s;
         text-align: center;
